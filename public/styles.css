@@ -1,0 +1,10 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.page__title {
+	margin: 1em;
+	font-size: 1.5em;
+	font-family: 'Helvetica Neue', sans-serif;
+}

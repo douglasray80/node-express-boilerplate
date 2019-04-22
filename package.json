@@ -1,0 +1,27 @@
+{
+	"name": "node-express-boilerplate",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "dotenv -- nodemon --exec babel-node src/index.js",
+		"start": "dotenv -- babel-node src/index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"chalk": "^2.4.2",
+		"cors": "^2.8.5",
+		"express": "^4.16.4"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.4.3",
+		"@babel/core": "^7.4.3",
+		"@babel/node": "^7.2.2",
+		"@babel/preset-env": "^7.4.3",
+		"dotenv-cli": "^2.0.0",
+		"nodemon": "^1.18.11"
+	}
+}
